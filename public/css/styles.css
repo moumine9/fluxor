@@ -1,0 +1,48 @@
+#body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#breadcrumb {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card_bg {
+    padding: 3.5%;
+    border: none;
+    /* background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+    background-image: radial-gradient(circle, #bcda74, #b2d56a, #a8cf5f, #9eca55, #93c54b);
+    /* background-image: linear-gradient(to left top, #bcda74, #b2d56a, #a8cf5f, #9eca55, #93c54b); */
+}
+
+#container.handsontable table {
+    width: 100% !important;
+}
+
+#sheet {
+    width: 100%;
+}
+
+#add_camp {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: radial-gradient(circle, #bcda74, #b2d56a, #a8cf5f, #9eca55, #93c54b);
+    color: #fff;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    cursor: hand !important;
+}
+
+#add_camp:hover {
+    background: #000;
+    /*     width: 55px;
+    height: 55px; */
+}
